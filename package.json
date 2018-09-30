@@ -1,0 +1,30 @@
+{
+  "name": "css-framework",
+  "version": "1.0.0",
+  "description": "Just a custom CSS framework to makemy life easier",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/HawolyBa/css-framework.git"
+  },
+  "keywords": [
+    "css"
+  ],
+  "author": "Hawoly Ba",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/HawolyBa/css-framework/issues"
+  },
+  "homepage": "https://github.com/HawolyBa/css-framework#readme",
+  "dependencies": {
+    "gulp-autoprefixer": "^6.0.0",
+    "gulp-sass": "^4.0.1"
+  },
+  "devDependencies": {
+    "browser-sync": "^2.24.7",
+    "gulp": "^3.9.1"
+  }
+}
