@@ -6,6 +6,10 @@
   font: inherit;
   vertical-align: baseline; }
 
+body {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box; }
+
 *:focus {
   outline: 0; }
 
@@ -23,18 +27,81 @@ a {
   -webkit-box-direction: normal;
       -ms-flex-flow: row wrap;
           flex-flow: row wrap;
-  -ms-flex-pack: distribute;
-      justify-content: space-around;
-  -webkit-box-align: end;
-      -ms-flex-align: end;
-          align-items: flex-end; }
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 500px; }
 
 .block {
-  width: 300px;
-  height: 300px;
-  background-color: #F1EF00; }
+  height: 500px; }
 
-@media (max-width: 320px) {
+.block-1 {
+  background: black; }
+
+.block-2 {
+  background: brown; }
+
+.block-3 {
+  background: blue; }
+
+.block-4 {
+  background: yellow; }
+
+.block-5 {
+  background-color: pink; }
+
+.block-6 {
+  background-color: aqua; }
+
+.block-7 {
+  background-color: palegreen; }
+
+.block-1 {
+  width: calc(1 * (100% / 12)); }
+
+.block-2 {
+  width: calc(2 * (100% / 12)); }
+
+.block-3 {
+  width: calc(3 * (100% / 12)); }
+
+.block-4 {
+  width: calc(4 * (100% / 12)); }
+
+.block-5 {
+  width: calc(5 * (100% / 12)); }
+
+.block-6 {
+  width: calc(6 * (100% / 12)); }
+
+.block-7 {
+  width: calc(7 * (100% / 12)); }
+
+.block-8 {
+  width: calc(8 * (100% / 12)); }
+
+.block-9 {
+  width: calc(9 * (100% / 12)); }
+
+.block-10 {
+  width: calc(10 * (100% / 12)); }
+
+.block-11 {
+  width: calc(11 * (100% / 12)); }
+
+.block-12 {
+  width: calc(12 * (100% / 12)); }
+
+main {
+  margin: 0 auto;
+  width: 1024px;
+  min-height: 500px;
+  background: #212121; }
+
+@media (max-width: 800px) {
   .blocks {
     display: -webkit-box;
     display: -ms-flexbox;

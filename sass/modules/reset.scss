@@ -7,6 +7,10 @@
   vertical-align: baseline
 }
 
+body {
+  box-sizing: border-box
+}
+
 *:focus {
   outline: 0
 }

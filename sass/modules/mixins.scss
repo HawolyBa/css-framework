@@ -5,4 +5,31 @@
   align-items: $align
 }
   
+@mixin apply-color($colors) {
+  @each $key, $color  in $colors {
+    .block-#{$key} {
+      background-color: $color
+    }
+  }
+}
+
+@mixin main($width) {
+  margin: 0 auto;
+  width: $width;
+  min-height: 500px
+}
+
+@mixin rainbow($rgb) {
+  @for $i from 1 through 12 {
+    .block-#{$i} {
+      background-color: rgb(0,0,$rgb)
+    }
   
+    $rgb: $rgb + 10
+  }
+}
+
+@mixin grid($temp) {
+  display: grid;
+  grid-template-columns: $temp
+}

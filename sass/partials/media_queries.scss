@@ -1,4 +1,4 @@
-@media (max-width: $mob-320) {
+@media (max-width: $tab-800) {
   
   .blocks{
     @include flex(column)
@@ -7,4 +7,5 @@
   .block {
     width: 100%
   }
+
 }
