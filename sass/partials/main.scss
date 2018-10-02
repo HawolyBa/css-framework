@@ -1,0 +1,7 @@
+.container {
+  @include main(1024px);
+}
+
+.container-full {
+  width: 100%
+}

@@ -33,3 +33,7 @@
   display: grid;
   grid-template-columns: $temp
 }
+
+@mixin columns($num) {
+  width: calc(#{$num} * (100% / 12))
+}

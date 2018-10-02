@@ -3,34 +3,9 @@
   min-height: 500px
 }
 
-.block { height: 500px }
-
-.block-1 {
-  background: black
-}
-
-.block-2 {
-  background: brown
-}
-
-.block-3 {
-  background: blue
-}
-
-.block-4 {
-  background: yellow
-}
-
-.block-5 {
-  background-color: pink
-}
-
-.block-6 {
-  background-color: aqua
-}
-
-.block-7 {
-  background-color: palegreen
+header {
+  background-color: grey;
+  height: 100vh
 }
 
 @for $i from 1 through 12 {
@@ -40,6 +15,28 @@
 }
 
 main {
-  @include main(1024px);
   background: $black
 }
+
+.flex { display: flex }
+
+.align-c { align-items: center }
+.align-s { align-items: flex-start }
+.align-e { align-items: flex-end }
+.align-b { align-items: baseline }
+
+.nowrap { flex-flow: row nowrap }
+.wrap { flex-flow: row wrap }
+.column { flex-direction: column }
+
+.justify-c { justify-content: center }
+.justify-spb { justify-content: space-between }
+.justify-spa { justify-content: space-around }
+.justify-l { justify-content: left }
+.justify-r { justify-content: right }
+.justify-fs { justify-content: flex-start }
+.justify-fe { justify-content: flex-end }
+.justify-ev { justify-content: space-evenly }
+.justify-str { justify-content: stretch }
+.justify-safe { justify-content: safe }
+.justify-unsafe { justify-content: unsafe }
