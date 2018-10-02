@@ -4,6 +4,7 @@
 @import 'modules/mixins';
 @import 'modules/general';
 
+@import 'partials/code';
 @import 'partials/grids';
 @import 'partials/main';
 @import 'partials/header';
@@ -16,3 +17,5 @@
 @import 'partials/media_queries';
 
 @import 'vendor/typography';
+
+@import 'partials/custom';

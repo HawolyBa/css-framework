@@ -1,0 +1,8 @@
+.code code {
+  border-radius: 10px
+}
+
+.code {
+  @include main(40%)
+}
+

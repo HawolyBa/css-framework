@@ -1,3 +1,19 @@
-.header-vertical { 
-  @include columns(2)
+.header-v { 
+  @include columns(2);
+  min-height: 100vh
+}
+
+.main-title {
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 40px
+}
+
+.nav-v {
+  text-align: center
+}
+
+.nav-v-item {
+  padding: 10px 0;
+  border-bottom: 1px solid $black;
 }

@@ -7,10 +7,6 @@
   vertical-align: baseline
 }
 
-body {
-  box-sizing: border-box
-}
-
 *:focus {
   outline: 0
 }
@@ -20,5 +16,6 @@ ul, li {
 }
 
 a { 
-  text-decoration: none
+  text-decoration: none;
+  color: inherit;
 }

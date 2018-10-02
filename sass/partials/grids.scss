@@ -3,19 +3,10 @@
   min-height: 500px
 }
 
-header {
-  background-color: grey;
-  height: 100vh
-}
-
 @for $i from 1 through 12 {
   .block-#{$i} {
     width: calc(#{$i} * (100% / 12))
   }
-}
-
-main {
-  background: $black
 }
 
 .flex { display: flex }

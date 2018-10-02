@@ -16,7 +16,6 @@
 @mixin main($width) {
   margin: 0 auto;
   width: $width;
-  min-height: 500px
 }
 
 @mixin rainbow($rgb) {
@@ -25,7 +24,7 @@
       background-color: rgb(0,0,$rgb)
     }
   
-    $rgb: $rgb + 10
+    $rgb: $rgb + 30
   }
 }
 
@@ -35,5 +34,5 @@
 }
 
 @mixin columns($num) {
-  width: calc(#{$num} * (100% / 12))
+  width: calc(#{$num} * (100% / 12));
 }
